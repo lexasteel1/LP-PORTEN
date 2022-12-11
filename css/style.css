@@ -1,0 +1,379 @@
+@import url('https://fonts.cdnfonts.com/css/pt-sans-2');
+@import url('https://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+body {
+  background-color: #000000 !important;
+  font-family: 'PT Sans', sans-serif !important;
+  max-width: 1920px;
+  /* font-family: 'Post No Bills Jaffna ExtraBold', sans-serif !important; */
+}
+/* .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*='col-'] {
+    padding-right: 0;
+
+    padding-left: 0;
+  }
+} */
+
+.col,
+[class*='col-'],
+.row,
+ul,
+li,
+.container-fluid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.top-line {
+  color: #969696;
+  font-size: 0.75rem;
+  align-items: center;
+  text-align: center;
+}
+.top-line i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.collapse .navbar-brand {
+  color: #969696;
+  font-family: 'Post No Bills Jaffna ExtraBold', sans-serif;
+  font-size: 36px;
+}
+
+.navbar-nav {
+  font-size: 14px;
+  align-items: center;
+}
+.navbar-nav .nav-item {
+  color: #969696;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item a {
+  color: #969696;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.banner {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.banner img {
+  width: 100%;
+  min-height: 320px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+.logo-center {
+  display: flex;
+  height: 20em;
+  width: 20em;
+  color: #fff;
+  border: 2px solid #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-center-title {
+  font-family: 'Post No Bills Jaffna ExtraBold', sans-serif;
+  font-size: 4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.logo-center-title hr {
+  border: 1px solid #fff;
+  width: 179px;
+  margin: 0;
+  margin-top: -0.3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-center-town {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.logo-text {
+  margin-top: 5%;
+  color: #fff;
+  max-width: 730px;
+}
+
+.title {
+  display: flex;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25em;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.hr-title {
+  border: 1px solid #fff;
+  width: 120px;
+}
+.new-season {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 180px;
+}
+.new-season .title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.new-season-item {
+  margin: 20px 25px;
+  width: 260px;
+  height: 405px;
+  color: #fff;
+  position: relative;
+}
+.new-season-item .back-color {
+  width: 100%;
+  height: 325px;
+  background-color: rgba(25, 27, 28, 1);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.new-season-item-image1 {
+  background-image: url('images/louis_athos.png');
+}
+
+.new-season-item-image2 {
+  background-image: url('images/carl_von_zeyten.png');
+}
+.new-season-item-image3 {
+  background-image: url('images/jord_ar5903.png');
+}
+
+.new-season-item .name {
+  font-family: 'Playfair Display', serif; /*regular*/
+  font-size: 1.125rem;
+  position: absolute;
+  bottom: 31px;
+}
+.new-season-item .price {
+  font-family: 'Playfair Display', serif; /*bold*/
+  position: absolute;
+  bottom: 0px;
+  font-size: 1rem;
+}
+.new-collection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.new-collection img {
+  width: 100%;
+}
+
+.new-collection .title {
+  position: absolute;
+  bottom: calc(100vh * 0.14);
+}
+.new-collection-button {
+  padding: 12px 28px 12px 28px;
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.125rem;
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase;
+  top: 50px;
+}
+
+.collection img {
+  width: 100%;
+}
+
+.collection .title {
+  margin-top: 100px;
+}
+.collection-p {
+  /* margin: 40px 200px 209px calc(width * 0.1) px; */
+  margin-left: calc(50vw * 0.15);
+  margin-right: calc(50vw * 0.17);
+  text-transform: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.875rem;
+  color: #fff;
+}
+.goods .title {
+  margin-top: 120px;
+}
+
+.goods-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  margin-top: 80px;
+  margin-bottom: 130px;
+  justify-content: center;
+}
+.goods-item-image1 {
+  background-image: url('images/carl_von_zeyten.png');
+}
+.goods-item-image2 {
+  background-image: url('images/jord_ar5903.png');
+}
+.goods-item-image3 {
+  background-image: url('images/emborio_armani.png');
+}
+.goods-item-image4 {
+  background-image: url('images/rolex_oyster.png');
+}
+.goods-item-image5 {
+  background-image: url('images/louis_athos.png');
+}
+.goods-item-image6 {
+  background-image: url('images/u-boat.png');
+}
+.goods-item-image7 {
+  background-image: url('images/gucci.png');
+}
+.goods-item-image8 {
+  background-image: url('images/jord_ar5903.png');
+}
+
+.goods-item-image8 > div > .new-collection-button {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.125rem;
+}
+.article img {
+  width: 100%;
+  background-repeat: no-repeat;
+
+  background-position: center;
+}
+
+.article-text {
+  margin-left: 145px;
+  margin-right: 158px;
+  /* 53px 158px 175px  */
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+}
+
+.article-text span {
+  font-size: 18px;
+}
+.article-text p {
+  font-size: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.partners {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-top: 66px;
+  margin-bottom: 106px;
+}
+
+.partners > ul {
+  display: flex;
+  list-style-type: none;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.partners > ul > li {
+  margin-left: 2em;
+}
+
+footer {
+  background-image: url('/images/footer.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  font-family: 'PT Sans', sans-serif;
+  color: #fff;
+}
+
+footer > .container > .row > .col {
+  margin-top: 80px;
+  background-color: transparent;
+}
+.footer-text {
+  margin: 40px 10px;
+  font-size: 0.875rem;
+}
+.categories {
+  margin-left: 40px;
+}
+
+.categories > ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+}
+.categories > ul > li {
+  margin-top: 19px;
+  border: 1px solid #fff;
+  white-space: nowrap;
+  margin-left: 2em;
+  padding: 10px 20px 10px 20px !important;
+  background-color: #000;
+}
+input#email {
+  padding: 10px 20px 10px 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+input#btnFollow {
+  padding: 10px 20px 10px 20px;
+  background-color: #000;
+  color: #fff;
+}
+.copyright {
+  display: flex;
+  font-size: 0.75rem;
+  color: #d0d0d0;
+}
+.user-aggrement {
+  display: flex;
+  justify-content: end;
+  font-size: 0.75rem;
+  color: #d0d0d0;
+  margin-right: 4rem;
+}
+
+.swiper {
+  width: 90%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  background-color: #000;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
