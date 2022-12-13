@@ -167,9 +167,9 @@ li,
 
 .new-season-item .name {
   font-family: 'Playfair Display', serif; /*regular*/
-  font-size: 1.125rem;
+  font-size: 1.12rem;
   position: absolute;
-  bottom: 31px;
+  padding-top: 10%;
 }
 .new-season-item .price {
   font-family: 'Playfair Display', serif; /*bold*/
